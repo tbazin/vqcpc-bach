@@ -40,6 +40,8 @@ def get_dataloader_generator(
             return BachDataloaderGenerator(
                 sequences_size=dataloader_generator_kwargs['sequences_size']
             )
+    elif dataset.lower() == 'nes':
+        raise NotImplementedError('# TODO: ')
     else:
         raise NotImplementedError("If you want to use your own datasets, you need to implement a"
                                   " datasets, data_processor and dataloader")

@@ -1,4 +1,6 @@
-tqdm
-numpy
-torch
 click
+music21
+numpy
+seaborn
+torch
+tqdm
